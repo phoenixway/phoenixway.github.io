@@ -1,10 +1,10 @@
 ---
 layout: home
-title: "Проекти"
+title: "Projects"
 permalink: /projects/
 ---
 
-## Мої проекти 🚀
+## My projects 🚀
 
 {% for project in site.projects %}
 <div class="project-card">
