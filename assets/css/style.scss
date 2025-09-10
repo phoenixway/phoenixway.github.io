@@ -37,3 +37,24 @@ pre, code {
   border: 1px solid #6272a4; // Рамка
   border-radius: 5px;
 }
+
+/* --- Стилі для карток проектів --- */
+.project-card {
+  background-color: #2f323f; // Фон трохи світліший за основний
+  border: 1px solid #6272a4;   // Рамка в стилі теми
+  border-radius: 8px;          // Закруглені кути
+  padding: 1.5em;              // Внутрішні відступи
+  margin-bottom: 2em;          // Відстань між картками
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; // Плавна анімація
+}
+
+.project-card:hover {
+  transform: translateY(-5px); // Легкий підйом при наведенні
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); // Тінь при наведенні
+}
+
+.project-card h3 {
+  margin-top: 0;               // Забрати зайвий відступ у заголовка
+  border-bottom: none;         // Забрати лінію, щоб не було подвійного підкреслення
+  padding-bottom: 0.5em;
+}
