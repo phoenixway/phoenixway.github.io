@@ -1,16 +1,21 @@
 ---
 layout: page
-title: "Про мене"
+title: "About Me"
 permalink: /about/
 ---
 
-![Моє фото]({{ site.baseurl }}/assets/images/profile.jpg){: .profile-pic }
+![My photo]({{ site.baseurl }}/assets/images/profile.jpg){: .profile-pic }
 
-Я IT-розробник із досвідом у Web та Python.  
+I am a software developer with a core belief: technology's greatest value is unlocked when it's applied to solve real-world, complex problems. My career is built on a foundation of Python, security principles, and automation, but my passion extends to the intersection of disciplines.
 
-Пишу блог, роблю проекти, автоматизую задачі.  
+My professional journey is guided by two questions: "How can this system be made more efficient and secure?" and "How can this knowledge be structured to empower others?"
 
-Мої навички:  
-- Python, JavaScript  
-- Git, Docker  
-- Linux, серверні системи
+This approach has led me to work on a diverse range of projects:
+
+* **As a Technologist,** I build secure software, design automation workflows, and explore the applications of AI. You can see this work in my **[Projects]({{ site.baseurl }}/projects/)**.
+
+* **As a Researcher,** I delve into non-technical domains, from creative writing to health theory, which you can find on my **[Explorations site]({{ site.baseurl }}/personal/)**.
+
+* **As a Volunteer,** I dedicate my time to creating a structured knowledge base for animal care, a project driven by a mission to make vital information accessible. This is my **[Animal Care Initiative]({{ site.baseurl }}/animal-care/)**.
+
+I believe the future is built by professionals who can operate across boundaries. If you share this vision or are interested in my work, feel free to get in touch.
