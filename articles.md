@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Контакти"
+title: "Contacts"
 permalink: /contact/
 ---
 
