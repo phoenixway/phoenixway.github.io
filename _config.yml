@@ -1,6 +1,3 @@
 title: "Мій блог"
-description: "Нотатки про IT та розробку"
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+description: "Мій блог про IT"
+theme: minima
