@@ -67,3 +67,18 @@ pre, code {
   margin: 0 auto 2em;          // Центрує горизонтально і додає відступ знизу
   border: 3px solid #6272a4;   // Додає рамку в стилі теми
 }
+
+/* --- Styles for Featured Projects on Homepage --- */
+.project-showcase {
+  margin-top: 2em;
+}
+.project-item {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  border-left: 4px solid #50fa7b; // Акцентна лінія зліва
+  background-color: #2f323f;
+}
+.project-item h3 {
+  margin-top: 0;
+  border-bottom: none;
+}
