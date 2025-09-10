@@ -15,6 +15,7 @@ This is my digital space where I share my professional work and insights. **[Vie
 * **[Technical Projects]({{ site.baseurl }}/projects/)**: A showcase of my software development and security work.
 * **[Explorations Site](https://phoenixway.github.io/personal/)**: A lab for my non-technical research and creative ventures.
 * **[Animal Care Initiative](https://phoenixway.github.io/animal-care/)**: A knowledge base for zoo volunteers and pet owners.
+
 ---
 
 ## Last Articles
