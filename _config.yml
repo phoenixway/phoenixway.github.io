@@ -1,0 +1,7 @@
+title: "Мій блог"
+description: "Нотатки про IT та розробку"
+theme: minima
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
