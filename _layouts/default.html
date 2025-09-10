@@ -11,7 +11,6 @@
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-
             <nav class="header-nav">
                 {% for p in site.header_pages %}
                 {% assign page = site.pages | where: "name", p | first %}
@@ -19,9 +18,11 @@
                 {% endfor %}
 
                 <a href="https://phoenixway.github.io/personal/" class="btn" target="_blank"
-                    rel="noopener noreferrer">Non-technical</a>
-
+                    rel="noopener noreferrer">My Lab</a>
+                <a href="https://phoenixway.github.io/animal-care/" class="btn" target="_blank"
+                    rel="noopener noreferrer">Animal Care Initiative</a>
             </nav>
+
             <section id="downloads">
                 <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on
                     GitHub</a>
