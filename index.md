@@ -29,7 +29,7 @@ This is my digital space where I share my professional work and insights.
 
 ---
 
-## Останні статті
+## Last Articles
 
 <ul>
   {% for post in site.posts limit:5 %}
