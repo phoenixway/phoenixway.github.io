@@ -1,8 +1,10 @@
 title: "Мій блог"
 description: "Мій блог про IT"
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 header_pages:
   - index.md
   - about.md
   - contact.md
-  
