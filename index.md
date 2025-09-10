@@ -10,4 +10,4 @@ title: "Ласкаво просимо!"
 - Досвід у: Web, Python, Git, Linux  
 - Люблю: чистий код та автоматизацію  
 
-[Про мене](/about/) | [Контакти](/contact/)
+[Про мене](/about/) | [Контакти](/contact/) | [Projects](/projects/)
