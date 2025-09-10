@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Контакти"
+title: "Contacts"
 permalink: /contact/
 ---
 
-Можна написати мені:  
+Email me:  
 - Email: cossack.in.it@gmail.com  
 - GitHub: [github.com/phoenixway](https://github.com/phoenixway)  
 - LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
