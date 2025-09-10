@@ -39,24 +39,51 @@ pre, code {
 }
 
 /* --- Стилі для карток проектів --- */
-.project-card {
-  background-color: #2f323f; // Фон трохи світліший за основний
-  border: 1px solid #6272a4;   // Рамка в стилі теми
-  border-radius: 8px;          // Закруглені кути
-  padding: 1.5em;              // Внутрішні відступи
-  margin-bottom: 2em;          // Відстань між картками
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; // Плавна анімація
+/* --- STYLES FOR FEATURED PROJECTS ON HOMEPAGE (v2) --- */
+
+// Заголовок секції ("Featured Projects")
+.section-heading {
+  margin-top: 3em;      // Збільшуємо відступ зверху, щоб відсунути від лінії
+  margin-bottom: 1.5em;
+  text-align: center;
 }
 
-.project-card:hover {
-  transform: translateY(-5px); // Легкий підйом при наведенні
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); // Тінь при наведенні
+// Контейнер для всіх карток
+.project-showcase {
+  // Тут стилі не потрібні, все буде в самих картках
 }
 
-.project-card h3 {
-  margin-top: 0;               // Забрати зайвий відступ у заголовка
-  border-bottom: none;         // Забрати лінію, щоб не було подвійного підкреслення
-  padding-bottom: 0.5em;
+// Стиль для кожної картки проекту
+.project-item {
+  background-color: #2f323f;
+  border: 1px solid #6272a4;          // Рамка навколо всієї картки
+  border-radius: 8px;                 // Закруглені кути
+  padding: 1.5em 2em;                 // Внутрішні відступи (збільшено по горизонталі)
+  margin-bottom: 2.5em;               // ЗБІЛЬШЕНО ВІДСТУП МІЖ ПРОЕКТАМИ
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.project-item h3 {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0.2em;
+}
+
+.project-item p {
+  margin-bottom: 1.5em; // Додаємо відступ під описом
+}
+
+// Посилання "See all projects"
+.see-all-projects {
+  margin-top: 3em;        // ЗБІЛЬШЕНО ВІДСТУП ЗВЕРХУ
+  text-align: center;
+  font-style: italic;
+  color: #999;
 }
 
 /* --- Стилі для фото профілю --- */
