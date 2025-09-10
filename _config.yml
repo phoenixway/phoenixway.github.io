@@ -11,8 +11,9 @@ collections:
     output: true
     permalink: /projects/:name/
 
+# Menu pages
 header_pages:
-  - index.md
   - about.md
   - projects.md
-  - contact.md
+  - stack.md  
+  - articles.md 
