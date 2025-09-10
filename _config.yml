@@ -1,3 +1,6 @@
 title: "Мій блог"
 description: "Мій блог про IT"
 theme: minima
+header_pages:
+  - index.md
+  - about.md
