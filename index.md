@@ -10,7 +10,7 @@ My name is Roman Kozak, a technologist specializing in software development and 
 
 ---
 
-## Featured Projects
+<h2 class="section-heading">Featured Projects</h2>
 
 <div class="project-showcase">
   <div class="project-item">
@@ -30,7 +30,9 @@ My name is Roman Kozak, a technologist specializing in software development and 
   </div>
 </div>
 
-**... see all my work on the [full projects page]({{ site.baseurl }}/projects/).**
+<p class="see-all-projects">
+  ... see all my work on the <a href="{{ site.baseurl }}/projects/">full projects page</a>.
+</p>
 
 ## Last Articles
 
