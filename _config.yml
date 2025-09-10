@@ -2,6 +2,7 @@ title: "Мій блог"
 description: "Мій блог про IT"
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 header_pages:
